@@ -27,7 +27,7 @@ ProviderConfig<HelloWordService> providerConfig = new ProviderConfig<HelloWordSe
 ```xml
 <sofa:reference id="sampleRestFacadeReferenceBolt" interface="com.alipay.sofa.endpoint.facade.SampleFacade">
     <sofa:binding.bolt>
-         <sofa:global-attrs weight="100" warm-up-time="10000" warm-up-weight="1000"/>
+         <sofa:global-attrs weight="100" warm-up-time="10000" warm-up-weight="10"/>
      </sofa:binding.bolt>
 </sofa:reference>
 ```
