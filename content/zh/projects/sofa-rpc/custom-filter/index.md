@@ -5,7 +5,7 @@ aliases: "/sofa-rpc/docs/Custom-Filter"
 ---
 
 
-SOFARPC 提供了一套良好的可扩展性机制，为各个模块提供 SPI 的能力。 SOFARPC 对请求与响应的过滤链处理方式是通过多个过滤器 Filter 来进行具体的拦截处理，该部分可由用户自定义 Filter 扩展，自定义 Filter 的执行顺序在内置 Filter 之后。具体方式如下：
+SOFARPC 提供了一套良好的可扩展的机制，为各个模块提供 SPI 的能力。 SOFARPC 对请求与响应的过滤链处理方式是通过多个过滤器 Filter 来进行具体的拦截处理，该部分可由用户自定义 Filter 扩展，自定义 Filter 的执行顺序在内置 Filter 之后。具体方式如下：
 
 ### Bolt Filter
 
